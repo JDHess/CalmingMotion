@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB899D029C527EB00587532 /* CalmingMotionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB899CF29C527EB00587532 /* CalmingMotionApp.swift */; };
+		6EB899D229C527EB00587532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB899D129C527EB00587532 /* ContentView.swift */; };
+		6EB899D429C527EE00587532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB899D329C527EE00587532 /* Assets.xcassets */; };
+		6EB899D729C527EE00587532 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB899D629C527EE00587532 /* Preview Assets.xcassets */; };
+		6EB899E129C527EE00587532 /* CalmingMotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB899E029C527EE00587532 /* CalmingMotionTests.swift */; };
+		6EB899EB29C527EE00587532 /* CalmingMotionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB899EA29C527EE00587532 /* CalmingMotionUITests.swift */; };
+		6EB899ED29C527EE00587532 /* CalmingMotionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB899EC29C527EE00587532 /* CalmingMotionUITestsLaunchTests.swift */; };
+		6EB899F329C527EE00587532 /* CalmingMotion Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6EB899F229C527EE00587532 /* CalmingMotion Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6EB899F829C527EE00587532 /* CalmingMotionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB899F729C527EE00587532 /* CalmingMotionApp.swift */; };
+		6EB899FA29C527EE00587532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB899F929C527EE00587532 /* ContentView.swift */; };
+		6EB899FC29C527F100587532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB899FB29C527F100587532 /* Assets.xcassets */; };
+		6EB899FF29C527F100587532 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB899FE29C527F100587532 /* Preview Assets.xcassets */; };
+		6EB89A0929C527F100587532 /* CalmingMotion_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89A0829C527F100587532 /* CalmingMotion_Watch_AppTests.swift */; };
+		6EB89A1329C527F100587532 /* CalmingMotion_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89A1229C527F100587532 /* CalmingMotion_Watch_AppUITests.swift */; };
+		6EB89A1529C527F100587532 /* CalmingMotion_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB89A1429C527F100587532 /* CalmingMotion_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EB899DD29C527EE00587532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB899C429C527EA00587532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB899CB29C527EB00587532;
+			remoteInfo = CalmingMotion;
+		};
+		6EB899E729C527EE00587532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB899C429C527EA00587532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB899CB29C527EB00587532;
+			remoteInfo = CalmingMotion;
+		};
+		6EB899F429C527EE00587532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB899C429C527EA00587532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB899F129C527EE00587532;
+			remoteInfo = "CalmingMotion Watch App";
+		};
+		6EB89A0529C527F100587532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB899C429C527EA00587532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB899F129C527EE00587532;
+			remoteInfo = "CalmingMotion Watch App";
+		};
+		6EB89A0F29C527F100587532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB899C429C527EA00587532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB899F129C527EE00587532;
+			remoteInfo = "CalmingMotion Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EB89A1B29C527F100587532 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6EB899F329C527EE00587532 /* CalmingMotion Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6EB899CC29C527EB00587532 /* CalmingMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalmingMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB899CF29C527EB00587532 /* CalmingMotionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmingMotionApp.swift; sourceTree = "<group>"; };
+		6EB899D129C527EB00587532 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EB899D329C527EE00587532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EB899D629C527EE00587532 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EB899DC29C527EE00587532 /* CalmingMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalmingMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB899E029C527EE00587532 /* CalmingMotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmingMotionTests.swift; sourceTree = "<group>"; };
+		6EB899E629C527EE00587532 /* CalmingMotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalmingMotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB899EA29C527EE00587532 /* CalmingMotionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmingMotionUITests.swift; sourceTree = "<group>"; };
+		6EB899EC29C527EE00587532 /* CalmingMotionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmingMotionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EB899F229C527EE00587532 /* CalmingMotion Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalmingMotion Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB899F729C527EE00587532 /* CalmingMotionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmingMotionApp.swift; sourceTree = "<group>"; };
+		6EB899F929C527EE00587532 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EB899FB29C527F100587532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EB899FE29C527F100587532 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EB89A0429C527F100587532 /* CalmingMotion Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CalmingMotion Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB89A0829C527F100587532 /* CalmingMotion_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmingMotion_Watch_AppTests.swift; sourceTree = "<group>"; };
+		6EB89A0E29C527F100587532 /* CalmingMotion Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CalmingMotion Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB89A1229C527F100587532 /* CalmingMotion_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmingMotion_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		6EB89A1429C527F100587532 /* CalmingMotion_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmingMotion_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB899C929C527EB00587532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB899D929C527EE00587532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB899E329C527EE00587532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB899EF29C527EE00587532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB89A0129C527F100587532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB89A0B29C527F100587532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EB899C329C527EA00587532 = {
+			isa = PBXGroup;
+			children = (
+				6EB899CE29C527EB00587532 /* CalmingMotion */,
+				6EB899DF29C527EE00587532 /* CalmingMotionTests */,
+				6EB899E929C527EE00587532 /* CalmingMotionUITests */,
+				6EB899F629C527EE00587532 /* CalmingMotion Watch App */,
+				6EB89A0729C527F100587532 /* CalmingMotion Watch AppTests */,
+				6EB89A1129C527F100587532 /* CalmingMotion Watch AppUITests */,
+				6EB899CD29C527EB00587532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB899CD29C527EB00587532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB899CC29C527EB00587532 /* CalmingMotion.app */,
+				6EB899DC29C527EE00587532 /* CalmingMotionTests.xctest */,
+				6EB899E629C527EE00587532 /* CalmingMotionUITests.xctest */,
+				6EB899F229C527EE00587532 /* CalmingMotion Watch App.app */,
+				6EB89A0429C527F100587532 /* CalmingMotion Watch AppTests.xctest */,
+				6EB89A0E29C527F100587532 /* CalmingMotion Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB899CE29C527EB00587532 /* CalmingMotion */ = {
+			isa = PBXGroup;
+			children = (
+				6EB899CF29C527EB00587532 /* CalmingMotionApp.swift */,
+				6EB899D129C527EB00587532 /* ContentView.swift */,
+				6EB899D329C527EE00587532 /* Assets.xcassets */,
+				6EB899D529C527EE00587532 /* Preview Content */,
+			);
+			path = CalmingMotion;
+			sourceTree = "<group>";
+		};
+		6EB899D529C527EE00587532 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6EB899D629C527EE00587532 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EB899DF29C527EE00587532 /* CalmingMotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB899E029C527EE00587532 /* CalmingMotionTests.swift */,
+			);
+			path = CalmingMotionTests;
+			sourceTree = "<group>";
+		};
+		6EB899E929C527EE00587532 /* CalmingMotionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB899EA29C527EE00587532 /* CalmingMotionUITests.swift */,
+				6EB899EC29C527EE00587532 /* CalmingMotionUITestsLaunchTests.swift */,
+			);
+			path = CalmingMotionUITests;
+			sourceTree = "<group>";
+		};
+		6EB899F629C527EE00587532 /* CalmingMotion Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				6EB899F729C527EE00587532 /* CalmingMotionApp.swift */,
+				6EB899F929C527EE00587532 /* ContentView.swift */,
+				6EB899FB29C527F100587532 /* Assets.xcassets */,
+				6EB899FD29C527F100587532 /* Preview Content */,
+			);
+			path = "CalmingMotion Watch App";
+			sourceTree = "<group>";
+		};
+		6EB899FD29C527F100587532 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6EB899FE29C527F100587532 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EB89A0729C527F100587532 /* CalmingMotion Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB89A0829C527F100587532 /* CalmingMotion_Watch_AppTests.swift */,
+			);
+			path = "CalmingMotion Watch AppTests";
+			sourceTree = "<group>";
+		};
+		6EB89A1129C527F100587532 /* CalmingMotion Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB89A1229C527F100587532 /* CalmingMotion_Watch_AppUITests.swift */,
+				6EB89A1429C527F100587532 /* CalmingMotion_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "CalmingMotion Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB899CB29C527EB00587532 /* CalmingMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB89A1C29C527F100587532 /* Build configuration list for PBXNativeTarget "CalmingMotion" */;
+			buildPhases = (
+				6EB899C829C527EB00587532 /* Sources */,
+				6EB899C929C527EB00587532 /* Frameworks */,
+				6EB899CA29C527EB00587532 /* Resources */,
+				6EB89A1B29C527F100587532 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB899F529C527EE00587532 /* PBXTargetDependency */,
+			);
+			name = CalmingMotion;
+			productName = CalmingMotion;
+			productReference = 6EB899CC29C527EB00587532 /* CalmingMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EB899DB29C527EE00587532 /* CalmingMotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB89A1F29C527F100587532 /* Build configuration list for PBXNativeTarget "CalmingMotionTests" */;
+			buildPhases = (
+				6EB899D829C527EE00587532 /* Sources */,
+				6EB899D929C527EE00587532 /* Frameworks */,
+				6EB899DA29C527EE00587532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB899DE29C527EE00587532 /* PBXTargetDependency */,
+			);
+			name = CalmingMotionTests;
+			productName = CalmingMotionTests;
+			productReference = 6EB899DC29C527EE00587532 /* CalmingMotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EB899E529C527EE00587532 /* CalmingMotionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB89A2229C527F100587532 /* Build configuration list for PBXNativeTarget "CalmingMotionUITests" */;
+			buildPhases = (
+				6EB899E229C527EE00587532 /* Sources */,
+				6EB899E329C527EE00587532 /* Frameworks */,
+				6EB899E429C527EE00587532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB899E829C527EE00587532 /* PBXTargetDependency */,
+			);
+			name = CalmingMotionUITests;
+			productName = CalmingMotionUITests;
+			productReference = 6EB899E629C527EE00587532 /* CalmingMotionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6EB899F129C527EE00587532 /* CalmingMotion Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB89A1829C527F100587532 /* Build configuration list for PBXNativeTarget "CalmingMotion Watch App" */;
+			buildPhases = (
+				6EB899EE29C527EE00587532 /* Sources */,
+				6EB899EF29C527EE00587532 /* Frameworks */,
+				6EB899F029C527EE00587532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalmingMotion Watch App";
+			productName = "CalmingMotion Watch App";
+			productReference = 6EB899F229C527EE00587532 /* CalmingMotion Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EB89A0329C527F100587532 /* CalmingMotion Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB89A2529C527F100587532 /* Build configuration list for PBXNativeTarget "CalmingMotion Watch AppTests" */;
+			buildPhases = (
+				6EB89A0029C527F100587532 /* Sources */,
+				6EB89A0129C527F100587532 /* Frameworks */,
+				6EB89A0229C527F100587532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB89A0629C527F100587532 /* PBXTargetDependency */,
+			);
+			name = "CalmingMotion Watch AppTests";
+			productName = "CalmingMotion Watch AppTests";
+			productReference = 6EB89A0429C527F100587532 /* CalmingMotion Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EB89A0D29C527F100587532 /* CalmingMotion Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB89A2829C527F100587532 /* Build configuration list for PBXNativeTarget "CalmingMotion Watch AppUITests" */;
+			buildPhases = (
+				6EB89A0A29C527F100587532 /* Sources */,
+				6EB89A0B29C527F100587532 /* Frameworks */,
+				6EB89A0C29C527F100587532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB89A1029C527F100587532 /* PBXTargetDependency */,
+			);
+			name = "CalmingMotion Watch AppUITests";
+			productName = "CalmingMotion Watch AppUITests";
+			productReference = 6EB89A0E29C527F100587532 /* CalmingMotion Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB899C429C527EA00587532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6EB899CB29C527EB00587532 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6EB899DB29C527EE00587532 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6EB899CB29C527EB00587532;
+					};
+					6EB899E529C527EE00587532 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6EB899CB29C527EB00587532;
+					};
+					6EB899F129C527EE00587532 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6EB89A0329C527F100587532 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6EB899F129C527EE00587532;
+					};
+					6EB89A0D29C527F100587532 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6EB899F129C527EE00587532;
+					};
+				};
+			};
+			buildConfigurationList = 6EB899C729C527EA00587532 /* Build configuration list for PBXProject "CalmingMotion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EB899C329C527EA00587532;
+			productRefGroup = 6EB899CD29C527EB00587532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB899CB29C527EB00587532 /* CalmingMotion */,
+				6EB899DB29C527EE00587532 /* CalmingMotionTests */,
+				6EB899E529C527EE00587532 /* CalmingMotionUITests */,
+				6EB899F129C527EE00587532 /* CalmingMotion Watch App */,
+				6EB89A0329C527F100587532 /* CalmingMotion Watch AppTests */,
+				6EB89A0D29C527F100587532 /* CalmingMotion Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB899CA29C527EB00587532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB899D729C527EE00587532 /* Preview Assets.xcassets in Resources */,
+				6EB899D429C527EE00587532 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB899DA29C527EE00587532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB899E429C527EE00587532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB899F029C527EE00587532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB899FF29C527F100587532 /* Preview Assets.xcassets in Resources */,
+				6EB899FC29C527F100587532 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB89A0229C527F100587532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB89A0C29C527F100587532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB899C829C527EB00587532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB899D229C527EB00587532 /* ContentView.swift in Sources */,
+				6EB899D029C527EB00587532 /* CalmingMotionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB899D829C527EE00587532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB899E129C527EE00587532 /* CalmingMotionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB899E229C527EE00587532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB899ED29C527EE00587532 /* CalmingMotionUITestsLaunchTests.swift in Sources */,
+				6EB899EB29C527EE00587532 /* CalmingMotionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB899EE29C527EE00587532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB899FA29C527EE00587532 /* ContentView.swift in Sources */,
+				6EB899F829C527EE00587532 /* CalmingMotionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB89A0029C527F100587532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB89A0929C527F100587532 /* CalmingMotion_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB89A0A29C527F100587532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB89A1529C527F100587532 /* CalmingMotion_Watch_AppUITestsLaunchTests.swift in Sources */,
+				6EB89A1329C527F100587532 /* CalmingMotion_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EB899DE29C527EE00587532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB899CB29C527EB00587532 /* CalmingMotion */;
+			targetProxy = 6EB899DD29C527EE00587532 /* PBXContainerItemProxy */;
+		};
+		6EB899E829C527EE00587532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB899CB29C527EB00587532 /* CalmingMotion */;
+			targetProxy = 6EB899E729C527EE00587532 /* PBXContainerItemProxy */;
+		};
+		6EB899F529C527EE00587532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB899F129C527EE00587532 /* CalmingMotion Watch App */;
+			targetProxy = 6EB899F429C527EE00587532 /* PBXContainerItemProxy */;
+		};
+		6EB89A0629C527F100587532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB899F129C527EE00587532 /* CalmingMotion Watch App */;
+			targetProxy = 6EB89A0529C527F100587532 /* PBXContainerItemProxy */;
+		};
+		6EB89A1029C527F100587532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB899F129C527EE00587532 /* CalmingMotion Watch App */;
+			targetProxy = 6EB89A0F29C527F100587532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6EB89A1629C527F100587532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EB89A1729C527F100587532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6EB89A1929C527F100587532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalmingMotion Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CalmingMotion;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.JDHess.CalmingMotion;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.CalmingMotion.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		6EB89A1A29C527F100587532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalmingMotion Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CalmingMotion;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.JDHess.CalmingMotion;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.CalmingMotion.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		6EB89A1D29C527F100587532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalmingMotion/Preview Content\"";
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CalmingMotion;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.CalmingMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EB89A1E29C527F100587532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalmingMotion/Preview Content\"";
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CalmingMotion;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.CalmingMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB89A2029C527F100587532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.CalmingMotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalmingMotion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalmingMotion";
+			};
+			name = Debug;
+		};
+		6EB89A2129C527F100587532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.CalmingMotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalmingMotion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalmingMotion";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB89A2329C527F100587532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.CalmingMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalmingMotion;
+			};
+			name = Debug;
+		};
+		6EB89A2429C527F100587532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDHess.CalmingMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalmingMotion;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB89A2629C527F100587532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JDHess.CalmingMotion-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalmingMotion Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalmingMotion Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		6EB89A2729C527F100587532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JDHess.CalmingMotion-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalmingMotion Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CalmingMotion Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		6EB89A2929C527F100587532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JDHess.CalmingMotion-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CalmingMotion Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		6EB89A2A29C527F100587532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MR82H66GP9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JDHess.CalmingMotion-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "CalmingMotion Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB899C729C527EA00587532 /* Build configuration list for PBXProject "CalmingMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB89A1629C527F100587532 /* Debug */,
+				6EB89A1729C527F100587532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB89A1829C527F100587532 /* Build configuration list for PBXNativeTarget "CalmingMotion Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB89A1929C527F100587532 /* Debug */,
+				6EB89A1A29C527F100587532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB89A1C29C527F100587532 /* Build configuration list for PBXNativeTarget "CalmingMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB89A1D29C527F100587532 /* Debug */,
+				6EB89A1E29C527F100587532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB89A1F29C527F100587532 /* Build configuration list for PBXNativeTarget "CalmingMotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB89A2029C527F100587532 /* Debug */,
+				6EB89A2129C527F100587532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB89A2229C527F100587532 /* Build configuration list for PBXNativeTarget "CalmingMotionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB89A2329C527F100587532 /* Debug */,
+				6EB89A2429C527F100587532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB89A2529C527F100587532 /* Build configuration list for PBXNativeTarget "CalmingMotion Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB89A2629C527F100587532 /* Debug */,
+				6EB89A2729C527F100587532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB89A2829C527F100587532 /* Build configuration list for PBXNativeTarget "CalmingMotion Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB89A2929C527F100587532 /* Debug */,
+				6EB89A2A29C527F100587532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB899C429C527EA00587532 /* Project object */;
+}
